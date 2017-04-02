@@ -1,15 +1,17 @@
-#index_page {
+#index_body {
   font-size: 1em;
-  background-color: grey;
+  background-color: #cfcfcf;
   color: #fff;
+  font-family: verdana, sans-serif;
 }
 
-#index_page a {
+#index_bodya {
   color:#fff;
 }
 
 
-#index_page .container {
+
+#index_body .container {
   padding-top: 10%;
 }
 
@@ -18,8 +20,104 @@ padding-top: 5%;
 }
 
 
-.name {
-  font-size: 2em;
+.index_name {
+  font-size: 3em;
 }
+
+/*         IMAGES PAGE         */
+
+
+body {
+  background-color: #d7d7d7;
+}
+
+.heading {
+  background-color: #cfcfcf;
+  padding: 40px;
+  color: #fff;
+}
+
+.main_img {
+  margin-top: -150px; /*   To correct on smaller devices, set a breakpoint code- margin:0;??? or display:block?; */
+  text-align: center;
+}
+
+.gallery_container {
+  text-align: center;
+  padding: 2%;
+}
+
+.gallery_slideshow {
+  width:800px;
+  height: 500px;
+}
+
+.modal-backdrop {
+    opacity:0.8 !important;
+}
+
+.img-thumbnail {
+  width:250px;
+  height: 200px;
+margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+
+#index_footer {
+ width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+
+  text-align: center;
+  bottom:;
+margin-top: 15%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
 
 
