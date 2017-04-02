@@ -1,0 +1,25 @@
+#index_page {
+  font-size: 1em;
+  background-color: grey;
+  color: #fff;
+}
+
+#index_page a {
+  color:#fff;
+}
+
+
+#index_page .container {
+  padding-top: 10%;
+}
+
+.index_heading{
+padding-top: 5%;
+}
+
+
+.name {
+  font-size: 2em;
+}
+
+
