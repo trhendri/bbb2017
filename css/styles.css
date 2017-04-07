@@ -1,8 +1,9 @@
 #index_body {
   font-size: 1em;
-  background-color: #cfcfcf;
-  color: #fff;
+  background-color: white;
   font-family: verdana, sans-serif;
+  
+
 }
 
 #index_body a {
@@ -10,24 +11,121 @@
 }
 
 
-
-#index_body .container {
-  padding-top: 10%;
+#index_body{
+width: 100%;
 }
 
-.index_heading{
-padding-top: 5%;
+.container {
+  margin: 2% 10%;
+}
+
+/*    HEADER AND NAV    */
+
+.navbar {
+  margin: 0 auto;
 }
 
 
 .index_name {
-  font-size: 3em;
+  font-size: 2em;
 }
+
+
+
+nav ul {
+  list-style-type: none;
+}
+
+.header_label {
+  width: 500px;
+  background-color: white;
+
+}
+
+
+
+.header {
+  padding: 0;
+  margin: 0 auto;
+
+}
+
+
+.logo_b {
+  background-color: black;
+  height:100px;
+  width:100px;
+}
+
+
+
+
+.header li {
+  text-align: left;
+  margin: 0;
+}
+
+.nav_items li {
+  padding: 5px 15px;
+}
+
+.nav_items {
+ text-align: right;
+  margin: 0;
+  padding:0;
+}
+
+.nav_all,
+.header_label {
+display: inline-block;
+
+}
+.nav_all {
+  float: right;
+}
+
+
+/*      SLIDE       */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+ 
+
+
 
 /*         IMAGES PAGE         */
 
 
-body {
+.images_body {
   background-color: #d7d7d7;
 }
 
@@ -37,10 +135,11 @@ body {
   color: #fff;
 }
 
-.main_img {
-  margin-top: -150px; /*   To correct on smaller devices, set a breakpoint code- margin:0;??? or display:block?; */
+/*.main_img {
+  margin-top: -150px; /*   To correct on smaller devices, set a breakpoint code- margin:0;??? or display:block?; 
   text-align: center;
-}
+} Decided to scrap this. looks cray on mobile and distracts. modal works fine one its on without this.
+*/
 
 .gallery_container {
   text-align: center;
@@ -64,21 +163,84 @@ margin: 10px;
 
 
 
+.logo, .logo2 {
+  display: inline-block;
+}
+
+
+
+.logo {
+  background-color: #f6f6f6;
+  margin-right: 10px;
+  height:200px;
+  width: 200px;
+  float:left;
+ 
+ 
+}
+
+.logo2 {
+
+margin-left: 10px;
+}
+.logo2 > p {
+  font-size: 14px;
+}
+
+.alignthese {
+  margin: 0 auto;
+
+}
+
+.heading {
+  background-color: #333;
+  padding: 20px;
+  font-family: arial;
+}
+
+.headingname {
+  font-size: 24px;
+}
+
+.heading a {
+  color: #fff;
+}
+
+.heading a:visited {
+  color: #fff;
+}
 
 
 
 
 
 
+/*    INDEX PAGE SLIDE    */
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
 
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
 
-
-
-
-
-
-
-
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
 
 
 
