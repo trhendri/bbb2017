@@ -1,13 +1,19 @@
 #index_body {
   font-size: 1em;
   background-color: white;
-  font-family: verdana, sans-serif;
+  font-family: arial, sans-serif;
   
 
 }
 
 #index_body a {
   color:#fff;
+}
+
+#index_body h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
 }
 
 
@@ -26,9 +32,6 @@ width: 100%;
 }
 
 
-.index_name {
-  font-size: 2em;
-}
 
 
 
@@ -58,15 +61,10 @@ nav ul {
 }
 
 
-.header {
-  margin: 40px auto;
 
-  
-
-}
-
-.header li {
-  text-align: ;
+.index_header {
+  background-color: lightgrey;
+  color: white;
 }
 
 .nav_items li {
